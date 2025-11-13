@@ -299,7 +299,7 @@
 .regalos{
   display: flex;
   height: auto;
-  width: 90%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   margin: auto;
