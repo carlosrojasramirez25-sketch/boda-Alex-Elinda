@@ -291,6 +291,7 @@
 
 /* Contenido del modal */
 .modal-content {
+ 
   color: white;
   font-size: 1.5rem;
   text-align: center;
@@ -512,15 +513,37 @@
       margin-top: 12px;
       width: 100%;
     }
-
+    #mostrardos{
+      
+      /* background-image: url('nombrecancion.jpeg');
+      background-size: contain;
+      background-position: center;
+      z-index: 20; */
+    }
+.inputdos{
+    padding: 12px;
+  border: none; /* elimina cualquier otro borde */
+  border-bottom: 2px solid #d3b219; 
+  margin-top: 10px;
+  outline: none; /* quita borde azul al hacer clic */
+  box-shadow: none; /* sin sombras */
+  font-style: normal;
+}
+.inputTextarea{
+    border-bottom: 5px solid #d3b219; 
+      outline: none; /* quita borde azul al hacer clic */
+  box-shadow: none; /* sin sombras */
+  font-style: normal;
+}
     .carrusel-container {
       position: relative;
+
       width: 100%;
-      max-width: 400px;
+      max-width: 350px;
       overflow: hidden;
       border-radius: 10px;
 
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      box-shadow: 6px 4px 8px rgba(0,0,0,0.2);
       background: #fff;
     }
 
@@ -529,11 +552,33 @@
       /* background-image: url('intentomimlmillones.jpeg'); */
       transition: transform 0.6s ease;
       width: 100%;
+            background-image: url('primeracarrusel.jpeg');
+      background-size: contain;
+      background-position: center;
+  
+      color: #fff;
     }
+    /* .carrusele{
+         display: flex;
+      /* background-image: url('intentomimlmillones.jpeg'); */
+      /* transition: transform 0.6s ease;
+      width: 100%;
+            background-image: url('primeracarrusel.jpeg');
+      background-size: contain;
+      background-position: center;
+     z-index: 30;
+      color: #fff;
+    }  */
 
     .slide {
       min-width: 100%;
+                background-image: url('primeracarrusel.jpeg');
+      background-size: contain;
+      background-position: center;
+  
+
           /* background-image: url('intentomimlmillones.jpeg'); */
+          
          background-size: cover;
       box-sizing: border-box;
       padding: 20px;

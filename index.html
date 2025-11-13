@@ -243,10 +243,9 @@
     <!-- bg-[#1a2a5f] -->
     <div class="">
       <form action="" class="flex flex-col " id="formulario">
-        <label for="" class="text-start pt-6">Nombre</label>
-        <input type="text" class="border border-[#d3b219] rounded-lg pl-2" id="nombre">
-        <label for="" class="text-start pt-2 pb-2">Mensaje</label>
-        <textarea rows="4" cols="30" name="" id="mensaje" class="border rounded-lg  border-[#d3b219] pl-2"></textarea>
+        <input type="text" class="border border-[#d3b219] rounded-lg pl-2 inputdos" placeholder="Nombre..." id="nombre">
+    
+        <textarea  placeholder="Mensaje..." rows="4" cols="30" name="" id="mensaje" class="border rounded-lg  border-[#d3b219] pl-2 mt-6 inputTextarea"></textarea>
         <button type="submit" class="mt-6 mb-2">Guardar</button>
       </form>
 
@@ -267,14 +266,14 @@
     </div>
 
     <h2> Sugerencia de canciones </h2>
-    <p class="px-12 mb-12">¿Cuáles son esas canciones que
+    <p class="px-12 ">¿Cuáles son esas canciones que
       no pueden faltar en nuestra boda?
       ¡Comparte tus favoritas con nosotros! </p>
     <!-- bg-[#1a2a5f] -->
 
     <form id="formulariodos" class="flex flex-col items-center min-w-full ">
-      <label class="pt-6">Nombre de canción</label>
-      <input type="text" id="nameMusic" class="border border-[#d3b219] rounded-lg pl-2 w-64" name="nameMusic"/>
+ 
+      <input placeholder="Escribe aqui..." type="text" id="nameMusic" class="border border-[#d3b219] rounded-lg pl-2 w-64 inputdos" name="nameMusic"/>
       <button type="submit" class="mt-4 bg-[#2391d4] text-white px-4 py-2 rounded-lg">Guardar</button>
     </form>
 
@@ -562,7 +561,7 @@
 
   onSnapshot(query(collection(db, "canciones"), orderBy("createdAt", "desc")), (snapshot) => {
     mostrarDos.innerHTML = `
-        <div class="carrusel-container relative overflow-hidden max-w-full max-w-sm mx-auto ">
+        <div class="carrusel-container relative overflow-hidden  mx-auto ">
           <div class="carrusel flex transition-transform duration-700 "></div>
           <button class="masy prev absolute left-0 top-1/2  -translate-y-1/2 bg-[#2391d4] text-white px-2 ">‹</button>
           <button class="masy next absolute right-0 top-1/2 -translate-y-1/2 bg-[#2391d4] text-white px-2">›</button>
@@ -573,7 +572,7 @@
       const item = doc.data();
       const slide = document.createElement("div");
       slide.classList.add("slide", "min-w-full", "p-4");
-      slide.innerHTML = `<p class="text-[#d3b219] w-full font-semibold">${item.nameMusic}</p>`;
+      slide.innerHTML = `<p class="text-[#002147] w-full font-semibold">${item.nameMusic}</p>`;
       carruseldos.appendChild(slide);
     });
     let j = 0;
