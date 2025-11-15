@@ -156,6 +156,10 @@
     h3 {
       font-family: 'Great Vibes', cursive;
     }
+     h4 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 20px;
+    }
 
     h1 {
       font-size: 3.3rem;
@@ -345,7 +349,7 @@ margin-bottom: 100px;
       background-position: start;
       background-size: contain;
       background-repeat: no-repeat;
-      padding-top: 120px;
+      padding-top: 90px;
       margin: 0;
       min-width: 100%;
    
@@ -359,9 +363,24 @@ margin-bottom: 100px;
     }
 
     .titulo-alex {
-      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+          font-family: 'Playfair Display', serif;
+      font-style: italic;
+      color: #1b2a59;
+      font-size: 18px;
+      font-style: italic;
+      color: #1b2a59;
+      font-weight: 700;
+      font-size: 45px;
+      margin: 0;
+        
     }
-
+    .separator {
+      font-size: 3rem;
+      margin: 0;
+      
+      color: #dbb50b;
+    }
     #retroceder {
     background-color: transparent;
       color: #1a2a5f;
@@ -385,12 +404,29 @@ margin-bottom: 100px;
 
   padding: 0;
 }
+.erewwwq{
+  font-size: 32px;
+}
+.wdssd{
+   font-family: 'Playfair Display', serif;
+}
     #solo {
       width: 90%;
      
       padding-left: 12px;
       padding-right: 12px;
 
+    }
+    .cartilla{
+  
+      margin-left: 12px;
+      border-radius: 12px;
+      margin-right: 12px;
+      color: #1a2a5f;
+      /* background-color: #d3b219; */
+      /* border: solid 1px #e5e1e1; */
+    
+       box-shadow: 12px 2px 10px rgba(0, 0, 0, 0.1);
     }
     @media screen and (min-width: 400px) {
       body{
@@ -444,7 +480,12 @@ margin-bottom: 100px;
       color: #1b2a59;
       font-size: 18px;
     }
-
+.textoUns{
+       font-family: 'Playfair Display', serif;
+      font-style: italic;
+      color: #1b2a59;
+      font-size: 18px;
+}
     /* //primera imagen de fondo*/
     #fundillo {
       background-image: url('BackgroundTemauno.png');
@@ -522,13 +563,10 @@ margin-bottom: 100px;
       margin: 0;
       font-weight: bold;
      color: #1a2a5f;
+       font-family: 'Playfair Display', serif;
     }
 
-    .separator {
-      font-size: 3rem;
-      margin: 10px 0;
-      color: #dbb50b;
-    }
+
 
     .textoCuatro {
       font-size: 1.5rem;
@@ -559,7 +597,7 @@ margin-bottom: 100px;
   font-style: normal;
 }
 .inputTextarea{
-    border-bottom: 5px solid #d3b219; 
+    border-bottom: 2px solid #d3b219; 
       outline: none; /* quita borde azul al hacer clic */
   box-shadow: none; /* sin sombras */
   font-style: normal;
