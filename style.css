@@ -11,7 +11,7 @@
 }
 .parrafouno{
   font-size: 30px;
-  color: #d3b219 ;
+  color: #1a2a5f ;
 }
 .parrafodos{
 
@@ -318,6 +318,9 @@
    border-bottom: #d3b219 2px solid;
 
 }
+.diasu{
+  font-size: 22px;
+}
     #numero {
       font-size: 4.5rem;
       font-weight: 100;
@@ -492,7 +495,7 @@
       font-size: 2.4rem;
       margin: 0;
       font-weight: bold;
-     color: #d3b219;
+     color: #1a2a5f;
     }
 
     .separator {
