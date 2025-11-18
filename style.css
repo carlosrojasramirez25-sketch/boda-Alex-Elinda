@@ -406,6 +406,9 @@ margin-bottom: 100px;
 }
 .erewwwq{
   font-size: 32px;
+  color: #1a2a5f;
+}
+.erewww{
   color: #d3b219;
 }
 .wdssd{
@@ -596,6 +599,10 @@ margin-bottom: 100px;
   outline: none; /* quita borde azul al hacer clic */
   box-shadow: none; /* sin sombras */
   font-style: normal;
+}
+
+.colordres{
+  color: #d3b219;
 }
 .inputTextarea{
     border-bottom: 2px solid #d3b219; 
